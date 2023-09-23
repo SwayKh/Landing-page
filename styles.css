@@ -1,12 +1,14 @@
 body {
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: Roboto, 'Times New Roman', Times, serif;
+    padding: 0;
+    font-family: 'Roboto', arial;
 }
 
-
+/* HEADER  */
 .header {
     display: flex;
     justify-content: space-around;
@@ -33,7 +35,7 @@ a {
     font-size: 18px;
 }
 
-
+/* HERO PART */
 .First {
     display: flex;
     justify-content: center;
@@ -69,7 +71,7 @@ a {
     color: #F9FAF8;
 }
 
-
+/* CARDS PART */
 .Second {
     display: flex;
     flex-direction: column;
@@ -91,6 +93,7 @@ a {
     gap: 48px;
 }
 
+/* QOUTE PART */
 .Third {
     display: flex;
     flex-direction: column;
@@ -107,6 +110,7 @@ a {
     font-weight: 400;
 }
 
+/* CONTACT PART */
 .fourth-box {
     display: flex;
     justify-content: space-around;
@@ -135,6 +139,7 @@ a {
     font-weight: 900;
 }
 
+/* FOOTER */
 .footer {
     text-align: center;
     background-color: #1F2937;
